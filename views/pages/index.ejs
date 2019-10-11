@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang = "fr">
+	<head>
+		<title>messagerie</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="/assets/design.css"/>
+		<script type = "text/javascript" src = "/assets/jQuery_3.3.1.js"></script>
+		<!--<script type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>-->
+		<!--<script type = "text/javascript" src = "/test/node_modules/socket.io-client/dist/socket.io.js"></script>-->
+		<script type = "text/javascript" src = "/assets/socket.io.js"></script>
+		<script type = "text/javascript" src = "/assets/code.js"></script>
+		<meta name = "viewport" content = "width=divice-width, initial-scale=1.0"/>
+	</head>
+	<body>
+		<% include header %>
+		<section>
+			<div class = "msg">
+				<div class = "msg_contenue"></div>
+				<form id = 'form' action = "">
+					<div class = "msg_form">
+						<input id = "pseudo" class = "input_msg input_pseudo" autocomplete = "off" placeholder="pseudo"><input id = "msg" class = "input_msg" autocomplete = "off" placeholder = "message"><button class = "submit">envoyer</button>
+					</div>
+				</form>
+			</div>
+		</section>
+		<% include footer %>
+	</body>
+</html>

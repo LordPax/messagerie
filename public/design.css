@@ -1,0 +1,66 @@
+body{
+	margin : 0;
+}
+html{
+	font-family : 'Source Sans Pro', sans-serif;
+	background-color : #EFEFEF;
+	font-weight : 300;
+	color : #444;
+	font-size : 19px;
+	line-height : 21px;
+}
+.msg{
+	width : 500px;
+	height : 500px;
+	margin : auto;
+	/*border : 1px solid black;*/
+}
+.msg_contenue{
+	width : 100%;
+	height : 100%;
+	overflow : auto;
+}
+.submit, .input_msg{
+	font-family : 'Source Sans Pro', sans-serif;
+	font-weight : 300;
+	color : #444;
+	font-size : 19px;
+	line-height : 21px;
+}
+.input_msg{
+	padding : 10px;
+	background-color : #FFF;
+	border : 2px solid #7f8c8d;
+	width : 315px;
+}
+.input_pseudo{
+	width : 50px;
+}
+.submit{
+	background-color : #FFF;
+	border : 2px solid #3498db;
+	color : #3498db;
+	padding : 10px;
+}
+.submit:hover{
+	background-color : #3498db;
+	border : 2px solid #3498db;
+	color : #FFF;
+	transition: 200ms;
+}
+.msg_form{
+	/*border : 1px solid #000;*/
+}
+
+@font-face {
+	font-family : 'Source Sans Pro';
+	font-style : normal;
+	font-weight : 300;
+	src : local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(/assets/source_sans_pro_300.ttf) format('truetype');
+}
+@font-face {
+	font-family : 'Source Sans Pro';
+	font-style : normal;
+	font-weight : 400;
+	src : local('Source Sans Pro'), local('SourceSansPro-Regular'), url(/assets/source_sans_pro_400.ttf) format('truetype');
+}
